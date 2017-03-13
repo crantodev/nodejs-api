@@ -1,0 +1,19 @@
+{
+  "name": "base_api",
+  "version": "1.0.0",
+  "description": "Base to build an API restful with NodeJS",
+  "author": "Daniel Mora <develop@danielmora.cr>",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-validator": "^3.1.2",
+    "mongoose": "^4.8.6",
+    "util": "^0.10.3",
+    "nodemon": "^1.11.0"
+  }
+}
